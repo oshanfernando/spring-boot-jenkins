@@ -15,4 +15,9 @@ public class TestController {
     public String tesgitlabtEndpoint() {
         return "This is a test message from /gitlabtest";
     }
+
+    @GetMapping("/webhook")
+    public String githubwebhook() {
+        return "This is a test message from /webhook";
+    }
 }
