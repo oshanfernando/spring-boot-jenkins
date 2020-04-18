@@ -10,14 +10,4 @@ public class TestController {
     public String testEndpoint() {
         return "This is a test message from /hello";
     }
-
-    @GetMapping("/gitlabtest")
-    public String tesgitlabtEndpoint() {
-        return "This is a test message from /gitlabtest";
-    }
-
-    @GetMapping("/webhook")
-    public String githubwebhook() {
-        return "This is a test message from /webhook";
-    }
 }
