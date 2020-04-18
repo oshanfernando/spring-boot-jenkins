@@ -8,6 +8,6 @@ public class TestController {
 
     @GetMapping("/hello")
     public String testEndpoint() {
-        return "This is a test message from /hello";
+        return "Web Hook test";
     }
 }
